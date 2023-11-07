@@ -17,7 +17,7 @@ export const BarNavegation = () => {
             <nav>
                 <ul>
                     <NavLink className='navLink' to={'/'} onClick={reload} >
-                        <img id='home' className='home' src='././img/hogar.png'/>
+                        <img id='home' className='home' src='../img/hogar.png'/>
                     </NavLink>
                     <NavLink className='navLink' to={'/Login'} >Log in</NavLink>
                 </ul>
