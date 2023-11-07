@@ -1,0 +1,35 @@
+.tittleList{
+    text-align: center;
+}
+table{
+    width: 90%;
+    padding: 20px 20px;
+    margin: auto;
+}
+thead{
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #ccc; 
+}
+td, th{
+    text-align: center;
+    border: 3px solid #ccc; 
+}
+.deleteBtn{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.deleteImg{
+    color: #ff0000;
+    filter: grayscale(100%);
+    width: 100%;
+}
+.deleteImg:hover{
+    filter: invert(19%) sepia(77%) saturate(7482%) hue-rotate(4deg) brightness(91%) contrast(134%);
+}
+
+
